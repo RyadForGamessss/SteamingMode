@@ -42,7 +42,7 @@ if (message.content.startsWith(prefix + 'setavatar')) {
 if (message.content.startsWith(prefix + 'RyadSt')) {
   client.user.setGame(argresult, "https://www.twitch.tv/peery13");
      console.log('test' + argresult);
-    message.channel.sendMessage(`Streaming: **${argresult}`)
+    message.channel.sendMessage(`:white_check_mark: ${argresult}`)
 } 
 if (message.content.startsWith(prefix + 'setgame')) {
   client.user.setGame(argresult);
