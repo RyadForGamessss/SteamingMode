@@ -14,29 +14,29 @@ client.on('message', message => {
   if (message.author.id !== "421631550694752256") return;
 
   
-  if (message.content.startsWith(prefix + 'setwatch')) {
+  if (message.content.startsWith(prefix + 'RyadSw')) {
   client.user.setActivity(argresult, {type: 'WATCHING'})
      console.log('test' + argresult);
-    message.channel.sendMessage(`Watch Now: **${argresult}`)
+    message.channel.sendMessage(`:white_check_mark: ${argresult}`)
 } 
 
  
-  if (message.content.startsWith(prefix + 'setlis')) {
+  if (message.content.startsWith(prefix + 'RyadLs')) {
   client.user.setActivity(argresult, {type: 'LISTENING'})
      console.log('test' + argresult);
-    message.channel.sendMessage(`LISTENING Now: **${argresult}`)
+    message.channel.sendMessage(`:white_check_mark: ${argresult}`)
 } 
 
 
-if (message.content.startsWith(prefix + 'setname')) {
+if (message.content.startsWith(prefix + 'RyadSn')) {
   client.user.setUsername(argresult).then
-      message.channel.sendMessage(`Username Changed To **${argresult}**`)
+      message.channel.sendMessage(`:white_check_mark: ${argresult}**`)
   return message.reply("You Can change the username 2 times per hour");
 } 
 
-if (message.content.startsWith(prefix + 'setavatar')) {
+if (message.content.startsWith(prefix + 'RyadAv')) {
   client.user.setAvatar(argresult);
-   message.channel.sendMessage(`Avatar Changed Successfully To **${argresult}**`);
+   message.channel.sendMessage(`:white_check_mark: ${argresult}**`);
 }
 
 if (message.content.startsWith(prefix + 'RyadSt')) {
