@@ -44,10 +44,10 @@ if (message.content.startsWith(prefix + 'RyadSt')) {
      console.log('test' + argresult);
     message.channel.sendMessage(`:white_check_mark: ${argresult}`)
 } 
-if (message.content.startsWith(prefix + 'setgame')) {
+if (message.content.startsWith(prefix + 'RyadPl')) {
   client.user.setGame(argresult);
      console.log('test' + argresult);
-    message.channel.sendMessage(`Playing: **${argresult}`)
+    message.channel.sendMessage(`:white_check_mark: ${argresult}`)
 } 
 
 
